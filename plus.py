@@ -7,7 +7,6 @@ if __name__ == '__main__':
     if plus(1,2) != 3:
         sys.exit(1)
         
-        
     if plus(1.1,2.2) < 3.299999 or plus (1.1,2.2) > 3.300001:
         sys.exit(2)
 
