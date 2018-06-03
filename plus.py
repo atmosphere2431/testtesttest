@@ -11,7 +11,6 @@ if __name__ == '__main__':
     if plus(1.1,2.2) < 3.299999 or plus (1.1,2.2) > 3.300001:
         sys.exit(2)
 
-        ifplus("abc","def")!="abcdef":
+    if plus("abc","def")!="abcdef":
         sys.exit(3)
-
-    sys.exit(0)
+sys.exit(0)
